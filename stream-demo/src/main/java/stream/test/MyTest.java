@@ -31,7 +31,7 @@ public class MyTest {
          //是否包含符合特定条件的元素
          boolean anyMatch = list.stream().anyMatch(x -> x < 0);
          System.out.println("是否存在小于0的值：" + anyMatch);
-         System.out.println("是否存在大于6的值" + anyOne);
+         System.out.println("是否存在大于7的值" + anyOne);
          System.out.println("大于6的第一个人是谁" + integer);
          System.out.println("====================================");
 
