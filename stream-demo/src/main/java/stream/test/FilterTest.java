@@ -188,6 +188,10 @@ public class FilterTest {
          Stream<Integer> limit = number.stream().skip(1).limit(5);
          limit.collect(Collectors.toList()).forEach(System.out::println);
 
+         //归集
+            //将流中的数据收集到集合中
+         personList.stream().filter(x -> x.getSalary() > 8000).collect(Collectors.toMap(Person::getName, Person::getSalary)).forEach((k, v) -> System.out.println(k + " " + v));
+
      }
 
 }
