@@ -47,4 +47,14 @@ public class DishTest {
         return name;
 
     }
+    ////不需要参数，返回值是5
+    //() -> 5
+    ////接收一个参数(数字类型)，返回其2倍的值
+    //x -> 2 * x
+    ////接受2个参数(数字)，并返回他们的差值
+    //(x, y) -> x – y
+    ////接收2个int型整数，返回他们的和
+    //(int x, int y) -> x + y
+    ////接收一个String对象，并在控制台打印，然后返回null
+    //(String s) -> { System.out.println("输出: " + s); }
 }
