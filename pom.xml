@@ -16,6 +16,7 @@
         <module>quartz-demo</module>
         <module>stream-demo</module>
         <module>websocket-demo</module>
+        <module>json-demo</module>
     </modules>
 
     <parent>
@@ -47,6 +48,14 @@
             <version>2.2.2.RELEASE</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <!--（起码1.2.48以上）因为这个版本一下存在漏洞-->
+            <version>1.2.73</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
