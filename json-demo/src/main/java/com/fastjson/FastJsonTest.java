@@ -11,4 +11,8 @@ package com.fastjson;/**
  * @version 1.0
  */
 public class FastJsonTest {
+    //高晨新ui
+    public static void main(String[] args) throws Exception {
+        System.out.println("hello world");
+    }
 }

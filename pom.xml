@@ -17,6 +17,8 @@
         <module>stream-demo</module>
         <module>websocket-demo</module>
         <module>json-demo</module>
+        <module>aop-demo/threadpool-test</module>
+        <module>threadpool-test</module>
     </modules>
 
     <parent>
